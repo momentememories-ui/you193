@@ -336,7 +336,7 @@
       animation-delay: var(--anim-delay, 0s);
     }
 
-    /* ขยายขนาดรูปตอนกดดูให้ใหญ่และชัดขึ้นกว่าเดิม 50% */
+    /* ขยายขนาดรูปตอนกดดูให้ใหญ่ขึ้นอีก 50% (ตัวหนังสือขนาดเดิม) */
     .polaroid.active {
       position: fixed !important;
       top: 50% !important;
@@ -344,10 +344,10 @@
       transform: translate(-50%, -50%) scale(1) rotate(0deg) !important;
       z-index: 999 !important;
       width: fit-content !important;
-      max-width: 92vw !important;
+      max-width: 96vw !important;
       height: auto !important;
-      padding: 10px 10px 22px 10px !important;
-      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4) !important;
+      padding: 12px 12px 24px 12px !important;
+      box-shadow: 0 35px 70px rgba(0, 0, 0, 0.45) !important;
       border-radius: 8px;
       animation: none !important;
       opacity: 1 !important;
@@ -359,7 +359,7 @@
     .polaroid.active img {
       width: auto !important;
       max-width: 100% !important;
-      max-height: 75vh !important;
+      max-height: 90vh !important;
       object-fit: contain !important;
       border-radius: 4px;
       background-color: #ffffff;
